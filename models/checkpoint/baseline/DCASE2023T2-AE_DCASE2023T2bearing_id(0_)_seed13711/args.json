@@ -1,0 +1,42 @@
+{
+  "model": "DCASE2023T2-AE",
+  "score": "MAHALA",
+  "seed": 13711,
+  "use_cuda": true,
+  "gpu_id": [
+    0
+  ],
+  "log_interval": 100,
+  "decision_threshold": 0.9,
+  "max_fpr": 0.1,
+  "n_mels": 128,
+  "frames": 5,
+  "frame_hop_length": 1,
+  "n_fft": 1024,
+  "hop_length": 512,
+  "power": 2.0,
+  "fmin": 0.0,
+  "fmax": null,
+  "win_length": null,
+  "batch_size": 256,
+  "epochs": 100,
+  "learning_rate": 0.001,
+  "shuffle": "True",
+  "validation_split": 0.1,
+  "dataset_directory": "./data",
+  "dataset": "DCASE2023T2bearing",
+  "dev": true,
+  "eval": false,
+  "use_ids": [
+    0
+  ],
+  "is_auto_download": false,
+  "result_directory": "./results",
+  "export_dir": "baseline",
+  "model_name_suffix": "id(0_)",
+  "restart": false,
+  "checkpoint_path": "",
+  "train_only": false,
+  "test_only": true,
+  "cuda": false
+}
