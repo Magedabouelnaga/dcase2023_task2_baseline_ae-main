@@ -1,0 +1,9 @@
+System,metric,h-mean,a-mean,ToyCar,ToyTrain,fan,gearbox,bearing,slider,valve
+baseline_MAHALA,AUC (source),0.8472,0.8472,,,0.8472,,,,
+baseline_MAHALA,AUC (target),0.5118,0.5118,,,0.5118,,,,
+baseline_MAHALA,"pAUC (source, target)",0.6052631578947368,0.6052631578947368,,,0.6052631578947368,,,,
+baseline_MAHALA,TOTAL score,0.6267731176824505,0.6547543859649122,,,,,,,
+baseline_MSE,AUC (source),0.808,0.808,,,0.808,,,,
+baseline_MSE,AUC (target),0.3662,0.3662,,,0.3662,,,,
+baseline_MSE,"pAUC (source, target)",0.59,0.59,,,0.59,,,,
+baseline_MSE,TOTAL score,0.5297276779374586,0.5880666666666667,,,,,,,
